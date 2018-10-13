@@ -26,13 +26,21 @@ Resultado:
 
 # Paso a passo
 loop comparação/condição
+
 variavel = texto digitado pelo usuário
+
 comparação de termino, variavel verifando se é igual ao fim
+
 verificar se o usuṕario digitou 5 caracteres
 
 comparação, se tiver menos caracteres
+
 	se tiver mostre a mensagem
+	
 outra comparação se o texto tiver mais 
+
 	mostrar 
+
 		quantidade de caracteres
+
 		vogais
