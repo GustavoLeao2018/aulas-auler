@@ -22,21 +22,41 @@ if opcao == 1:
         print(f"O número: {numero1} É par.")
     else:
         print(f"O número: {numero1} É ímpar.")
+    """
+    Se numero2 for par:
+        escreva na tela a mensagem dizendo que ele é par
+    senão:
+        escreva na tela a mensagem dizendo que ele é ímpar
+    """
 
 elif opcao == 2:
     if int(numero1) < 0:
         print(f"O número: {numero1} É negativo.")
     else:
         print(f"O número: {numero1} É positivo.")
+    """
+    Se numero2  é menor que 0:
+        escreva na tela a mensagem dizendo que ele é negativo
+    senão:
+        escreva na tela a mensagem dizendo que ele é positivo
+    """
+
 
 elif opcao == 3:
     if numero1.isdigit() is True:
         print(f"O número: {numero1} É inteiro.")
     else:
         print(f"O número: {numero1} É decimal.")
+    """
+    Se numero2 é um inteiro:
+        escreva na tela a mensagem dizendo que ele é inteiro
+    senão:
+        escreva na tela a mensagem dizendo que ele é decimal
+    """
+
 
 """
 TODO:
-    1 - Completar o código para o número 2, dentro dos if's. 
+    1 - Completar o código para o número 2, dentro dos if's. (linhas 25, 32, 39)
     2 - Acrescentar NO FINAL um ELSE com um loop, pedindo ao usuário que digite novamente um número válido (obs.: número <= 3).
 """
